@@ -2,22 +2,16 @@
 
 ## General coding style
 
----
-
 - use === instead of ==;
 - `'use strict'` when possible;
 - use single quotes for strings e.g.: `document.getElementById('id')`;
 
 ## Naming conventions
 
----
-
 - All functions should be named using `camelCase`;
 - All variables should be named using an `under_score`, if more than 1 word;
 
 ## Commenting
-
----
 
 Inline comments should use // this allows them to be easily commented out for debugging:
 
@@ -52,8 +46,6 @@ JavaScript files should have an explanation at the top similar to a function but
 
 ## Performance
 
----
-
 ### Use async, when appropriate
 
 Using async means the script is downloaded asynchronously while the rest of the page continues to get parsed.
@@ -64,7 +56,5 @@ The script is guaranteed to be executed as soon as the download is complete. Kee
 ```
 
 ## Validation
-
----
 
 Always validate code [JS Hint](www.jshint.com).

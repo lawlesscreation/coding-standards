@@ -2,8 +2,6 @@
 
 ## General coding style
 
----
-
 Many of the CSS coding standards also apply to SCSS, obviously, but here are a few other things to note.
 
 - Use // for SCSS comments (instead of /* */), SCSS comment will be removed from the CSS when compiled;

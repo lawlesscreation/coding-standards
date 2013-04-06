@@ -2,9 +2,7 @@
 
 ## General coding style
 
----
-
-- Use .on('click', function() {...}); instead of .click(function() {...});
+- Use `.on('click', function() {...});` instead of `.click(function() {...})`;
 
 ### Naming conventions
 
@@ -14,16 +12,12 @@ Functions *inside* an already names jQuery function or plugin local scope don't 
 
 ## Plug-ins
 
----
-
 - Use the [jQuery boilerplate](https://github.com/jquery-boilerplate/boilerplate) for plugin creation;
 - Prefix your plugin name with 'jquery' so its easily recognised as a jQuery plugin e.g.: `jqueryCarousel`;
 - Prefix your folder name with 'jquery' e.g.: /jquery-carousel/;
 - Prefix your file name with 'jquery' e.g.: jquery.carousel.js;
 
 ## Performance
-
----
 
 ### Don't use jQuery, for everything
 
@@ -47,9 +41,7 @@ $('a').on('click', function() {
 
 ## CDN
 
----
-
-Grab jQuery and jQuery UI from a CDN:
+I personally think its still a good idea to grab jQuery and jQuery UI from a CDN:
 
 ```html
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>

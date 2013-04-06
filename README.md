@@ -7,15 +7,11 @@ So why not compile it on GitHub! I can then easily update it as it evolves.
 
 ## General principles
 
----
-
 - Use soft-tabs with a two space indent;
 - Never compress code, that's the app/servers job;
 - Keep your code clean. Seperate CSS into a .css file, JavaScript into a .js file etc;
 
 ## Table of contents
-
----
 
 - [HTML](html.md)
 - [CSS](css.md)
@@ -25,16 +21,12 @@ So why not compile it on GitHub! I can then easily update it as it evolves.
 
 ## Sources
 
----
-
 - [GitHub styleguide](https://github.com/styleguide/)
 - [Google HTML/CSS style guide](http://google-styleguide.googlecode.com/svn/trunk/htmlcssguide.xml)
 - [SMACSS](http://smacss.com/)
 
 
 ## Final thought *from Google* that I agree completely with...
-
----
 
 Be consistent.
 
