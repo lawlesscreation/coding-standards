@@ -2,7 +2,7 @@
 
 ## General coding style
 
-- use === instead of ==;
+- use `===` instead of `==`;
 - `'use strict'` when possible;
 - use single quotes for strings e.g.: `document.getElementById('id')`;
 
