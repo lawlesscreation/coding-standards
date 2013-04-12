@@ -19,7 +19,7 @@ header {
   
     li {display: block; }
 
-    a {color: #fff; } //Note: this isn't nested in the <li> to help reduce code bloat caused by unnecessary nesting
+    a {color: #fff; } //Note: this isn't nested in the <li> to help reduce code bloat
 
   }
 
