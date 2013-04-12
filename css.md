@@ -5,15 +5,17 @@
 - Put a space before { in rule declarations;
 - Put a space after : in property declarations;
 - Single CSS properties should appear on a single line;
-- Use hex color codes #000 unless using rgba;
-- Use percentages for font sizes instead of absolute units (EM, REM etc are also fine, if supported);
+- Multiple CSS selectors should each appear on a new line;
+- Utilize CSS animations as best you can, they can save you a load of JavaScript code down the road;
+
 
 ```css
 .selector {font-size: 100%; }
 ```
 
 ```css
-.selector {
+.selector,
+.another-selector {
   font-size: 100%;
   color: #fff;
   background: rgba(0,0,0,.5);
@@ -39,9 +41,11 @@ Whilst not as string as BEM's `__` and `--` convention, it should allow for a cl
 ### Properties
 
 - Use shorthand properties where suitable e.g.: font or background;
+- Omit leading 0's from values e.g.: padding: .25em;
+- Use hex color codes #000 unless using rgba;
+- Use percentages for font sizes instead of absolute units (EM, REM etc are also fine, if supported);
 - Provide a fallback for older browsers that do not support modern CSS properties or values such as background gradients, rgba etc;
 - If browser prefix properties are required, place them before the non-prefixed property;
-- Omit leading 0's from values e.g.: padding: .25em;
 
 ```css
 .selector {
