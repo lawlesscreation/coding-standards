@@ -20,7 +20,7 @@ var string = 'string',
 
 ## Commenting
 
-JavaScript files should have an explanation at the top similar to a function but that includes details such as name, description, author, version, license where appropriate: 
+JavaScript files should have an explanation at the top, which includes details such as name, description, author, version, license where appropriate: 
 
 ```javascript
 /*
