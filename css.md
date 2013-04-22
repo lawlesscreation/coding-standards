@@ -2,8 +2,8 @@
 
 ## General coding style
 
-- Put a space before { in rule declarations;
-- Put a space after : in property declarations;
+- Put a space before `{` in rule declarations;
+- Put a space after `:` in property declarations;
 - Single CSS properties should appear on a single line;
 - Multiple CSS selectors should each appear on a new line;
 - Utilize CSS animations as best you can, they can save you a load of JavaScript code down the road;
