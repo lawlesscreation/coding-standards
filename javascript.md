@@ -33,7 +33,7 @@ JavaScript files should have an explanation at the top, which includes details s
  */
 ```
 
-Functions should have a comment block `/* */` at the start that explains what they do and what is returned:
+Functions should have a comment block `/* */` at the start that explains what they do and what, if anything, is returned:
 
 ```javascript
 /*
@@ -54,13 +54,13 @@ var string = 'string'; // a string
 
 ## Functions
 
-### A basic function
+### Basic function syntax
 
-Basic function syntax:
+This is the syntax for a basic JavaScript function and how to call it, nothing exciting:
 
 ```javascript
 function functionName() {
-   // Code to be executed ONLY when the function is called
+  // Code to be executed ONLY when the function is called
 }
 
 // Calling the function
@@ -73,7 +73,7 @@ It's quite simple to make a function run automatically when a page loads, or whe
 
 ```javascript
 (function functionName() {
-   // Code to be self-executed
+  // Code to be self-executed
 })();
 ```
 
