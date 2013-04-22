@@ -19,7 +19,7 @@ So why not compile it on GitHub! I can then easily update it as it evolves.
 - [JavaScript](javascript.md)
   - [jQuery](javascript-jquery.md)
 
-## Sources
+## Sources include...
 
 - [GitHub styleguide](https://github.com/styleguide/)
 - [Google HTML/CSS style guide](http://google-styleguide.googlecode.com/svn/trunk/htmlcssguide.xml)
