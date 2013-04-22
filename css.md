@@ -62,6 +62,11 @@ Whilst not as string as BEM's `__` and `--` convention, it should allow for a cl
 Comments can get messy, but I find this pattern works well for me - each to their own...
 
 ```css
+/*
+ * File name ( e.g.: Typography )
+ * Describes the files purpose ( e.g.: Contains all typography styling for headings, lists, etc )
+ */
+
 /* A COLLECTION ( e.g.: GRID )
 ----------------------------------------------------------------------------------*/
 .selector {}
