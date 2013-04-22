@@ -13,7 +13,7 @@
 
 ## Commenting
 
-Inline comments should use // this allows them to be easily commented out for debugging:
+Inline comments should use `//` this allows them to be easily commented out for debugging:
 
 ```javascript
 var string = 'string'; // a string

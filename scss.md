@@ -4,7 +4,7 @@
 
 Many of the CSS coding standards also apply to SCSS, obviously, but here are a few other things to note.
 
-- Use // for SCSS comments (instead of /* */), SCSS comment will be removed from the CSS when compiled;
+- Use `//` for SCSS comments (instead of `/* */`), SCSS comment will be removed from the CSS when compiled;
 - Prefix any file that doesn't need to be compiled with an _underscore.scss e.g.: partials or files that are only ever imported;
 - When nesting selectors, ask yourself if it's really necessary to do so. Heavy nesting can lead to bloated stylesheets;
 - Keep track of your CSS file size(s) and periodically review your nesting strategy to avoid style bloat;
