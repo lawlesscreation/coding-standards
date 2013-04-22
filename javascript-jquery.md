@@ -12,6 +12,8 @@ Functions *inside* an already names jQuery function or plugin local scope don't 
 
 ## Plug-ins
 
+Useful background reading [jQuery plugin authoring](http://docs.jquery.com/Plugins/Authoring) particularly regarding namespacing and methods.
+
 - Use the [jQuery boilerplate](https://github.com/jquery-boilerplate/boilerplate) for plugin creation;
 - Prefix your plugin name with 'jquery' so its easily recognised as a jQuery plugin e.g.: `jqueryFunkyCarousel`;
 - Prefix your folder name with 'jquery' e.g.: /jquery.funky-carousel/;

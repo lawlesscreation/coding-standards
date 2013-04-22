@@ -2,9 +2,16 @@
 
 ## General coding style
 
-- use `===` instead of `==`;
+- Use `===` instead of `==`;
 - `'use strict'` when possible;
-- use single quotes for strings e.g.: `document.getElementById('id')`;
+- Use single quotes for strings e.g.: `document.getElementById('id')`;
+- Comma seperate multiple variables e.g.:
+
+```javascript
+var string = 'string',
+    another_string = 'another string',
+    third_string = 'third string';
+```
 
 ## Naming conventions
 
@@ -12,24 +19,6 @@
 - All variables should be named using an `under_score`, if more than 1 word;
 
 ## Commenting
-
-Inline comments should use `//` this allows them to be easily commented out for debugging:
-
-```javascript
-var string = 'string'; // a string
-```
-
-Functions should have a comment block /* */ at the start that explains what they do and what is returned:
-
-```javascript
-/*
- * Function that does something cool
- * @return string: something that is returned
- */
-functionName: function () {
-  return string;
-},
-```
 
 JavaScript files should have an explanation at the top similar to a function but that includes details such as name, description, author, version, license where appropriate: 
 
@@ -42,6 +31,50 @@ JavaScript files should have an explanation at the top similar to a function but
  * Author: Matt Lawson
  * License: licenced under MIT - http://opensource.org/licenses/mit-license.php
  */
+```
+
+Functions should have a comment block `/* */` at the start that explains what they do and what is returned:
+
+```javascript
+/*
+ * Function that does something cool
+ * @return string: something that is returned
+ */
+function functionName() {
+  return string;
+}
+```
+
+Inline comments should use `//` this allows them to be easily commented out for debugging:
+
+```javascript
+var string = 'string'; // a string
+```
+
+
+## Functions
+
+### A basic function
+
+Basic function syntax:
+
+```javascript
+function functionName() {
+   // Code to be executed ONLY when the function is called
+}
+
+// Calling the function
+functionName();
+```
+
+### Self-executing functions
+
+It's quite simple to make a function run automatically when a page loads, or when a parent function is called. Simply wrap your function in parenthesis, and then append an additional set, which essentially calls the function:
+
+```javascript
+(function functionName() {
+   // Code to be self-executed
+})();
 ```
 
 ## Performance

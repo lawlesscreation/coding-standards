@@ -5,7 +5,7 @@
 - Closing tags for large blocks of content should end with a comment e.g.: `<!-- /selector -->`;
 - Always close tags, including self-closing tags, e.g.: `<br />`, `<link />`;
 - Remove any unnecessary attributes e.g.: `<script src="" />` instead of `<script type="text/javascript" src="" />`;
-- styles up top, scripts down bottom;
+- styles at the top, scripts at the bottom;
 
 ```html
 <div class="selector">
