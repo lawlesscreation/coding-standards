@@ -7,6 +7,7 @@
 - Single CSS properties should appear on a single line;
 - Multiple CSS selectors should each appear on a new line;
 - Utilize CSS animations as best you can, they can save you a load of JavaScript code down the road;
+- Avoiding qualified name selectors e.g.: `div.post {}`;
 
 
 ```css
