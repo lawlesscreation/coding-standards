@@ -25,9 +25,7 @@ Sometimes its good to check if a function exist before trying to use it. Particu
 
 ```javascript
 if ($.isFunction($.fn.FUNCTION_NAME)) {
-
   // Code for calling the function etc goes here
-
 }
 ```
 
