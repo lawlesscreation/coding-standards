@@ -19,9 +19,7 @@ Useful background reading [jQuery plugin authoring](http://docs.jquery.com/Plugi
 - Prefix your folder name with 'jquery' e.g.: /jquery.funky-carousel/;
 - Prefix your file name with 'jquery' e.g.: jquery.funky-carousel.js;
 
-## Functions
-
-### Check if a function exists
+### Check if a plugin function exists
 
 Sometimes its good to check if a function exist before trying to use it. Particularly if its a 3rd party plug-in:
 
