@@ -31,3 +31,13 @@ header {
 - Create variables for your CSS animation properties, especially duration and delay. Consistent animation timing ensures eye-pleasing UI effects;
 - Variables containing more than one word should use an underscore e.g.: `$variable_name`.
 
+## Mixins
+- Mixins should use hyphens for multiple words and/or underscores for media queries;
+
+```scss
+@mixin related-links_mobile {
+  ...
+}
+
+@include related-links_mobile;
+```
