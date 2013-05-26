@@ -38,10 +38,10 @@ Functions should have a comment block `/* */` at the start that explains what th
 ```javascript
 /*
  * Function that does something cool
- * @return string: something that is returned
+ * @return true or whatever is returned
  */
 function functionName() {
-  return string;
+  return true;
 }
 ```
 
