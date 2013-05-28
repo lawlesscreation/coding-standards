@@ -27,7 +27,8 @@
 
 ### Selectors
 
-CSS selectors should use a loose [BEM naming](http://coding.smashingmagazine.com/2012/04/16/a-new-front-end-methodology-bem/) convention. For example:
+- Use the `is-` prefix for state rules that are shared between CSS and JavaScript, e.g.: `.is-hidden {}`;
+- CSS selectors should use a loose [BEM naming](http://coding.smashingmagazine.com/2012/04/16/a-new-front-end-methodology-bem/) convention. For example:
 
 ```css
 .menu {} /* block */
@@ -39,7 +40,8 @@ CSS selectors should use a loose [BEM naming](http://coding.smashingmagazine.com
 
 Whilst not as string as BEM's `__` and `--` convention, it should allow for a clean, logical, OO naming convention. 
 
-### Properties
+
+## Properties
 
 - Use shorthand properties where suitable e.g.: font or background;
 - Omit leading 0's from values e.g.: padding: .25em;
