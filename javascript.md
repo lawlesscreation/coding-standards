@@ -18,6 +18,10 @@ var string = 'string',
 - All functions should be named using `camelCase`;
 - All variables should be named using an `under_score`, if more than 1 word;
 
+### Selectors
+
+Try to prefix all javascript created selectors with `js-`. The idea is that you should be able to tell a presentational class from a functional class.
+
 ## Commenting
 
 JavaScript files should have an explanation at the top, which includes details such as name, description, author, version, license where appropriate: 
@@ -50,7 +54,6 @@ Inline comments should use `//` this allows them to be easily commented out for 
 ```javascript
 var string = 'string'; // a string
 ```
-
 
 ## Functions
 
