@@ -27,7 +27,6 @@
 
 ### Selectors
 
-- Use the `is-` prefix for state rules that are shared between CSS and JavaScript, e.g.: `.is-hidden {}`;
 - CSS selectors should use a loose [BEM naming](http://coding.smashingmagazine.com/2012/04/16/a-new-front-end-methodology-bem/) convention. For example:
 
 ```css
