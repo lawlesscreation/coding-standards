@@ -27,6 +27,7 @@
 
 ### Selectors
 
+- A good rule is to never go more than four levels deep (the Inception Rule!);
 - CSS selectors should use a loose [BEM naming](http://coding.smashingmagazine.com/2012/04/16/a-new-front-end-methodology-bem/) convention. For example:
 
 ```css
