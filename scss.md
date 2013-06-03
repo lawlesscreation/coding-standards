@@ -9,6 +9,7 @@ Many of the CSS coding standards also apply to SCSS, obviously, but here are a f
 - When nesting selectors, ask yourself if it's really necessary to do so. Heavy nesting can lead to bloated stylesheets;
 - Keep track of your CSS file size(s) and periodically review your nesting strategy to avoid style bloat;
 - Place a line break between each (s)css selector including nested selectors;
+- Nested selectors should be placed last;
 
 ```scss
 header {
