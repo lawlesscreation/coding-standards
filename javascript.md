@@ -20,7 +20,7 @@ var string = 'string',
 
 ### Selectors
 
-- Try to prefix all JavaScript created selectors with `js-`. The idea is that you should be able to tell a which classes have been inserted with JavaScript;
+- Try to prefix all JavaScript created selectors with `js-`. The idea is that you should be able to tell which classes have been inserted with JavaScript;
 
 ## Commenting
 
