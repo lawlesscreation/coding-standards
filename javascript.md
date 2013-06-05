@@ -82,11 +82,17 @@ It's quite simple to make a function run automatically when a page loads, or whe
 
 ## Selectors
 
-Cache your selectors <strong>once</strong> at the start of the file (if global) or function:
+- Cache your selectors <strong>once</strong> at the start of the file (if global) or function;
+- Use the cached selectors to find other elements, rather than searching the whole DOM again;
 
 ```javascript
 function functionName() {
   var foo = document.getElementById('foo');
+  //BAD
+  var bar = document.getElementsByClassName('bar');
+  // GOOD
+  var bar = foo.getElementsByClassName('bar');
+  ...
 }
 ```
 
