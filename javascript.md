@@ -80,6 +80,16 @@ It's quite simple to make a function run automatically when a page loads, or whe
 })();
 ```
 
+## Selectors
+
+Cache your selectors <strong>once</strong> at the start of the file (if global) or function:
+
+```javascript
+function functionName() {
+  var foo = document.getElementById('foo');
+}
+```
+
 ## Performance
 
 ### Use async, when appropriate
