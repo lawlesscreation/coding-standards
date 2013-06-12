@@ -51,6 +51,10 @@ $('a').on('click', function() {
 });
 ```
 
+### Avoid using `document.ready`
+
+This is because by putting your scripts at the end of the DOM (before the `</body>` tag) you know the DOM is going to be compiled by the time your scripts run.
+
 ## CDN
 
 I personally think its still a good idea to grab jQuery and jQuery UI from a CDN:
