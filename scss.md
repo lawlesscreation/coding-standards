@@ -33,12 +33,14 @@ header {
 - Variables containing more than one word should use an underscore e.g.: `$variable_name`.
 
 ## Mixins
-- Mixins should use hyphens for multiple words and/or underscores for media queries;
+- Mixins should use underscores for multiple words and/or hyphens for media queries;
 
 ```scss
-@mixin related-links_mobile {
+@mixin related_links {
   ...
 }
 
-@include related-links_mobile;
+@mixin related_links-mobile {
+  ...
+}
 ```
