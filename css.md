@@ -44,9 +44,10 @@ Whilst not as string as BEM's `__` and `--` convention, it should allow for a cl
 
 ## Properties
 
-- Use shorthand properties where suitable e.g.: font or background;
+- Use shorthand properties where suitable e.g.: `font:` or `background:`;
 - Omit leading 0's from values e.g.: padding: .25em;
 - Use hex color codes #000 unless using rgba;
+- Use font weight numbers instead of words e.g.: `font-weight: 400;`;
 - Use percentages for font sizes instead of absolute units (EM, REM etc are also fine, if supported);
 - Provide a fallback for older browsers that do not support modern CSS properties or values such as background gradients, rgba etc;
 - If browser prefix properties are required, place them before the non-prefixed property;
