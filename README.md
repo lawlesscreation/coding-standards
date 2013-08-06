@@ -1,6 +1,6 @@
-# Styleguide
+# Coding standards
 
-#### My very own styleguide and coding standards. Mostly for my own reference and validation.
+#### My very own coding standards. Mostly for my own reference and validation.
 
 I wanted to compile my preferred guidelines and coding standards from sources such as Google and GitHub into a single place in the hope of creating a reference for all the code I write.
 So why not compile it on GitHub! I can then easily update it as it evolves.
