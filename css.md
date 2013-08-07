@@ -64,7 +64,7 @@ Whilst not as string as BEM's `__` and `--` convention, it should allow for a cl
 
 ### DRYing CSS
 
-Try to write DRYer code when possible. <abbr title="Don't Repeat Yourself">DRY</abbr> code usually means two things:
+Try to write DRYer code when possible. DRY (Don't Repeat Yourself) code usually means two things:
 
 1. Less actual code, meaning smaller file sizes, more efficient code, etc.
 2. Less to maintain; not repeating yourself simplifies things when you come to make changes or additions in the future.
