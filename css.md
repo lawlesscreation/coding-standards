@@ -66,8 +66,8 @@ Whilst not as string as BEM's `__` and `--` convention, it should allow for a cl
 
 Try to write DRYer code when possible. DRY code usually means two things:
 
-1. Less actual code, meaning smaller file sizes, less for the user to have to download, more efficient code, etc.
-2. Less to have to maintain; not repeating yourself means that you can make fewer changes to your codebase.
+1. Less actual code, meaning smaller file sizes, more efficient code, etc.
+2. Less to maintain; not repeating yourself simplifies things when you come to make changes or additions in the future.
 
 For example:
 
