@@ -62,6 +62,29 @@ Whilst not as string as BEM's `__` and `--` convention, it should allow for a cl
 }
 ```
 
+### DRYing code
+
+Try to write DRYer code when possible. DRY code usually means two things:
+
+1. Less actual code, meaning smaller file sizes, less for the user to have to download, more efficient code, etc.
+2. Less to have to maintain; not repeating yourself means that you can make fewer changes to your codebase.
+
+For example:
+
+```css
+.menu-item {
+  background-position: 0 50%;
+  background-repeat: no-repeat;
+}
+
+.menu-item-current {background-image: url(active.gif); }
+
+.menu-item-disabled {background-image: url(disabled.gif); }
+
+```
+
+Abstracting out the repeated parts and avoiding using shorthand means writing a few more lines of code, but massively trims down the amount of repetition.
+
 ## Commenting
 
 Comments can get messy, but I find this pattern works well for me - each to their own...
