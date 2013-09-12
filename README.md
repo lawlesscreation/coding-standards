@@ -8,7 +8,7 @@ So why not compile it on GitHub! I can then easily update it as it evolves.
 ## General principles
 
 - Use soft-tabs with a two space indent;
-- Never compress code, that's the app/servers job;
+- Avoid compressing your code, that's the app/servers job. If you do, be sure to provide an uncompressed and commented version;
 - Keep your code clean. Seperate CSS into a .css file, JavaScript into a .js file etc;
 
 ## Table of contents
