@@ -68,4 +68,4 @@ I personally think its still a good idea to grab jQuery and jQuery UI from a CDN
 
 ## Validation
 
-Always validate code [JS Hint](www.jshint.com).
+Always validate code [JS Hint](http://jshint.com).
