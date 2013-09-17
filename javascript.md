@@ -68,12 +68,13 @@ function functionName() {
 JavaScript files should have an explanation at the top, which includes details such as name, description, author, version, license where appropriate: 
 
 ```javascript
-/*
- * Name: Awesome plugin
- * Description: Does something really cool!
+/*!
+ * Awesome scripts|plugin
+ *
+ * Does something really cool!
+ *
  * Version: 0.1
- * 
- * Author: Matt Lawson
+ * Author: @lawlesscreation
  * License: licenced under MIT - http://opensource.org/licenses/mit-license.php
  */
 ```
@@ -82,8 +83,13 @@ Functions should have a comment block `/* */` at the start that explains what th
 
 ```javascript
 /*
- * Function that does something cool
- * @return true or whatever is returned
+ * Function name
+ *
+ * A function that does something really really cool
+ *
+ * @requires: libraries or plugins that are required
+ * @url: url to function or plugin if available
+ * @return boolean|string: - true or whatever is returned
  */
 function functionName() {
   return true;
