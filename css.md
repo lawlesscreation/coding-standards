@@ -1,5 +1,14 @@
 # CSS
 
+- [General coding style](#general-coding-style)
+- [Naming conventions](#naming-conventions)
+- [Properties](#properties)
+- [Commenting](#commenting)
+- [Specificity (id vs. class)](#specificity-id-vs-class)
+- [Multiple classes](#multiple-classes)
+- [Media queries (mobile first)](#media-queries-mobile-first)
+- [Validation](#validation)
+
 ## General coding style
 
 - Put a space before `{` in rule declarations;
@@ -62,7 +71,7 @@ Whilst not as string as BEM's `__` and `--` convention, it should allow for a cl
 }
 ```
 
-### DRYing CSS
+### DRYing CSS properties
 
 Try to write DRYer code when possible. DRY (Don't Repeat Yourself) code usually means two things:
 
@@ -134,7 +143,7 @@ If in doubt, use a class.
 
 ## Multiple classes
 
-To aid with BEM and OO CSS, sometimes using and chaining multiple classes can be useful.
+To aid with BEM and OO CSS, sometimes using and chaining multiple classes can be useful (though it should be avoided whenever possible).
 Just remember IE6 doesn't play nicely with these, it selects based on the first selector in the list only.
 
 ```css
