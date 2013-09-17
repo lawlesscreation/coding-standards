@@ -3,7 +3,7 @@
 - [General coding style](#general-coding-style)
 - [Doctype](#doctype)
 - [Conditional comments](#conditional-comments)
-- [JavaScript detection](#javaScript-detection)
+- [JavaScript detection](#javascript-detection)
 - [Multiple classes](#multiple-classes)
 - [Validation](#validation)
 
