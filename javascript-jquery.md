@@ -1,5 +1,11 @@
 # jQuery
 
+- [General coding style](#general-coding-style)
+- [Plug-ins](#plug-ins)
+- [Performance](#performance)
+- [CDN](#cdn)
+- [Validation](#validation)
+
 ## General coding style
 
 - Use `.on()` fot attaching event handlers e.g.: `.on('click', function() {...});` instead of `.click(function() {...})`;
