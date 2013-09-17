@@ -6,6 +6,7 @@
 - [Selectors](#selectors)
 - [Commenting](#commenting)
 - [Performance](#performance)
+- [Validation](#validation)
 
 ## General coding style
 
