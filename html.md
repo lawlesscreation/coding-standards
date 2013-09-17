@@ -1,5 +1,12 @@
 # HTML
 
+- [General coding style](#general-coding-style)
+- [Doctype](#doctype)
+- [Conditional comments](#conditional-comments)
+- [JavaScript detection](#javaScript-detection)
+- [Multiple classes](#multiple-classes)
+- [Validation](#validation)
+
 ## General coding style
 
 - Closing tags for large blocks of content should end with a comment e.g.: `<!-- .selector -->`;
