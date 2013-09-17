@@ -1,10 +1,10 @@
 # JavaScript
 
-- [General coding style](javascript.md#general-coding-style)
-- [Naming conventions](javascript.md#naming-conventions)
-- [Functions](javascript.md#functions)
-- [Selectors](javascript.md#selectors)
-- [Commenting](javascript.md#commenting)
+- [General coding style](#general-coding-style)
+- [Naming conventions](#naming-conventions)
+- [Functions](#functions)
+- [Selectors](#selectors)
+- [Commenting](#commenting)
 - [Performance](#performance)
 
 ## General coding style
