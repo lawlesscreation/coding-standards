@@ -1,5 +1,9 @@
 # SCSS
 
+- [General coding style](#general-coding-style)
+- [Variables](#variables)
+- [Mixins](#mixins)
+
 ## General coding style
 
 Many of the CSS coding standards also apply to SCSS, obviously, but here are a few other things to note.
