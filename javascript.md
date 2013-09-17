@@ -1,5 +1,12 @@
 # JavaScript
 
+- [General coding style](javascript.md#general-coding-style)
+- [Naming conventions](javascript.md#naming-conventions)
+- [Functions](javascript.md#functions)
+- [Selectors](javascript.md#selectors)
+- [Commenting](javascript.md#commenting)
+- [Performance](#performance)
+
 ## General coding style
 
 - Use `===` instead of `==`;
@@ -18,9 +25,9 @@ var string = 'string',
 - All functions should be named using `camelCase`;
 - All variables should be named using an `under_score`, if more than 1 word;
 
-### Selectors
+### CSS selector naming
 
-- Try to prefix all JavaScript created selectors with `js-`. The idea is that you should be able to tell which classes have been inserted with JavaScript, e.g.: `js-tabs`, `js-is-hidden`;
+- Try to prefix all JavaScript created ID's or classes with `js-`. The idea is that you should be able to tell which classes have been inserted with JavaScript, e.g.: `js-tabs`, `js-is-hidden`;
 
 ## Functions
 
