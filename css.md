@@ -101,6 +101,7 @@ Comments can get messy, but I find this pattern works well for me - each to thei
 ```css
 /*
  * File name ( e.g.: Typography )
+ *
  * Describes the files purpose ( e.g.: Contains all typography styling for headings, lists, etc )
  */
 
@@ -114,7 +115,7 @@ Comments can get messy, but I find this pattern works well for me - each to thei
 .selector {}
 
 
-/* AN ITEM CHUNK ( e.g.: NAVIGATION SEARCH) */
+/* An item chunk ( e.g.: header search) */
 .selector {}
 
 .selector {} /* a selector/property inline comment */
