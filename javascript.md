@@ -81,9 +81,9 @@ JavaScript files should have an explanation at the top, which includes details s
  *
  * Does something really cool!
  *
- * Version: 0.1
- * Author: @lawlesscreation
- * License: licenced under MIT - http://opensource.org/licenses/mit-license.php
+ * @version: 0.1
+ * @author: @lawlesscreation
+ * @license: licenced under MIT - http://opensource.org/licenses/mit-license.php
  */
 ```
 
