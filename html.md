@@ -34,23 +34,18 @@ Using conditional comments on the `<html>` tag means you are able to place all C
 They are designed to cascade back through versions so IE7 will also get IE9 and IE8 fixes. This generally reduces the repetition of CSS fixes across versions.
 
 ```html
-<!--[if IE 7]> <html lang="en" class="no-js lte9 lte8 lte7"> <![endif]-->
-<!--[if IE 8]> <html lang="en" class="no-js lte9 lte8"> <![endif]-->
-<!--[if IE 9]> <html lang="en" class="no-js lte9"> <![endif]-->
-<!--[if gt IE 9]><!--> <html lang="en" class="no-js"> <!--<![endif]-->
+<!--[if IE 7]> <html class="lte9 lte8 lte7" lang="en"> <![endif]-->
+<!--[if IE 8]> <html class="lte9 lte8" lang="en"> <![endif]-->
+<!--[if IE 9]> <html class="lte9" lang="en"> <![endif]-->
+<!--[if gt IE 9]><!--> <html lang="en"> <!--<![endif]-->
 ```
-
-## JavaScript detection
-
-With the use of [Modernizr](http://modernizr.com/) you can detect if JavaScript is available (or not) with the `.no-js` class. This class gets toggle to `js` by Modernizr.
-You can then easily provide a gracefully degraded version for visitors without JavaScript if required.
 
 ## Multiple classes
 
 Use multiple classes to help with OO CSS, for example:
 
 ```html
-<a class="btn btn-large">button text</a>
+<a class="btn btn--large">button text</a>
 ```
 
 But don't go *crazy*.
