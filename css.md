@@ -43,12 +43,12 @@
 ```css
 .menu {} /* block */
 
-.menu-item {} /* block-element */
+.menu_item {} /* block-element */
 
-.menu-item-current {} /* block-element-modifier */
+.menu_item--current {} /* block-element-modifier */
 ```
 
-Whilst not as string as BEM's `__` and `--` convention, it should allow for a clean, logical, OO naming convention. 
+Whilst not as string as BEM's `__` convention, it should allow for a clean, logical, OO naming convention. 
 
 
 ## Properties
@@ -81,14 +81,14 @@ Try to write DRYer code when possible. DRY (Don't Repeat Yourself) code usually 
 For example:
 
 ```css
-.menu-item {
+.menu_item {
   background-position: 0 50%;
   background-repeat: no-repeat;
 }
 
-.menu-item-current {background-image: url(active.gif); }
+.menu_item--current {background-image: url(active.gif); }
 
-.menu-item-disabled {background-image: url(disabled.gif); }
+.menu_item--disabled {background-image: url(disabled.gif); }
 
 ```
 
@@ -145,10 +145,10 @@ If in doubt, use a class.
 ## Multiple classes
 
 To aid with BEM and OO CSS, sometimes using and chaining multiple classes can be useful (though it should be avoided whenever possible).
-Just remember IE6 doesn't play nicely with these, it selects based on the first selector in the list only.
+Just remember IE6 doesn't play nicely with these.
 
 ```css
-.btn-large.btn-inline {}
+.btn--large.btn--inline {}
 ```
 
 ## Media queries (mobile first)
