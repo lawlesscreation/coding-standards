@@ -12,7 +12,6 @@
 
 ### Naming conventions
 
-- Any variable returning a jQuery object should be prefixed with `$` e.g.: `$variable_name`;
 - Prefix your **global** function with 'jquery' so its easily recognised as a jQuery function e.g.: `jqueryFunctionName`.
 Functions *inside* an already names jQuery function or plugin local scope don't necessarily need this;
 
