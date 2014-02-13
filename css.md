@@ -43,9 +43,9 @@
 ```css
 .menu {} /* block */
 
-.menu_item {} /* block-element */
+.menu_item {} /* block_element */
 
-.menu_item--current {} /* block-element-modifier */
+.menu_item--current {} /* block_element--modifier */
 ```
 
 Whilst not as string as BEM's `__` convention, it should allow for a clean, logical, OO naming convention. 
@@ -57,9 +57,9 @@ Whilst not as string as BEM's `__` convention, it should allow for a clean, logi
 - Omit leading 0's from values e.g.: padding: .25em;
 - Use hex color codes #000 unless using rgba;
 - Use font weight numbers instead of words e.g.: `font-weight: 400;`;
-- Use percentages for font sizes instead of absolute units (EM, REM etc are also fine, if supported);
+- Use percentages for font sizes instead of absolute units (EM, REM etc are also fine, just be consistent);
 - Provide a fallback for older browsers that do not support modern CSS properties or values such as background gradients, rgba etc;
-- If browser prefix properties are required, place them before the non-prefixed property;
+- Vendor prefixes should be avoided but if required, place them before the non-prefixed property;
 
 ```css
 .selector {
@@ -99,33 +99,36 @@ Abstracting out the repeated parts and avoiding using shorthand means writing a 
 Comments can get messy, but I find this pattern works well for me - each to their own...
 
 ```css
-/*
- * File name ( e.g.: Typography )
+/*!
+ * File name ( e.g.: Main styling / Print )
  *
- * Describes the files purpose ( e.g.: Contains all typography styling for headings, lists, etc )
+ * Description:   Describes the files purpose ( e.g.: contains all styling for screen / print )
+ * Author:        Usually me...
+ *
+ * Version:       0.0.1
  */
 
-/* A COLLECTION ( e.g.: GRID )
-----------------------------------------------------------------------------------*/
+/* A COLLECTION ( e.g.: COMPONENTS )
+  --------------------------------------------------------------------------------*/
 .selector {}
 
 
-/* AN ITEM ( e.g.: NAVIGATION )
+/* AN ITEM ( e.g.: HEADER )
 ------------------------------------------*/
 .selector {}
 
 
-/* An item chunk ( e.g.: header search) */
+/* An item element ( e.g.: header search) */
 .selector {}
 
-.selector {} /* a selector/property inline comment */
+.selector {} /* an inline note */
 
 
 
 /*------------------------------------------------------------------------------------
   MEDIA QUERY START COMMENT
 ------------------------------------------------------------------------------------*/
-@media only screen and () {
+@media only screen {
 
   /* A COLLECTION ( e.g.: COMPONENTS )
   ----------------------------------------------------------------------------------*/
@@ -139,8 +142,8 @@ Comments can get messy, but I find this pattern works well for me - each to thei
 Elements that occur exactly once inside a page *could* use IDs, otherwise always use classes.
 If in doubt, use a class.
 
-- Good candidates for ids: header, footer, modal popups;
-- Bad candidates for ids: navigation, item listings, item view pages (ex: issue view).
+- Good candidates for ids: homepage, header, footer;
+- Bad candidates for ids: navigation, item listings.
 
 ## Multiple classes
 
@@ -159,4 +162,5 @@ What break points you use depends on the design and content that needs to adapt.
 ## Validation
 
 Always validate your CSS [W3C CSS validator](http://jigsaw.w3.org/css-validator/).
+
 Running your CSS through [CSS Lint](http://csslint.net/) is also wise.
