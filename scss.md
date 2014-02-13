@@ -40,11 +40,11 @@ header {
 - Mixins should use underscores for multiple words and/or hyphens for media queries;
 
 ```scss
-@mixin related_links {
+@mixin related_links-mobile {
   ...
 }
 
-@mixin related_links-mobile {
+@mixin related_links-mobile_large {
   ...
 }
 ```
