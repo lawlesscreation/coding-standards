@@ -158,4 +158,5 @@ What break points you use depends on the design and content that needs to adapt.
 
 ## Validation
 
-Always validate code [W3C CSS validator](http://jigsaw.w3.org/css-validator/).
+Always validate your CSS [W3C CSS validator](http://jigsaw.w3.org/css-validator/).
+Running your CSS through [CSS Lint](http://csslint.net/) is also wise.
