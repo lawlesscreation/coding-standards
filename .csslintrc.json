@@ -1,28 +1,19 @@
 {
-  // Lint CSS files
-  // https://github.com/stubbornella/csslint/wiki/Rules
+  "adjoining-classes"           : false,
+  "box-sizing"                  : false,
+  "compatible-vendor-prefixes"  : false,
+  "gradients"                   : false,
 
-  // Compatibility
-  "adjoining-classes"           : false,  // Disallow adjoining classes
-  "box-sizing"                  : false,  // Disallow box sizing
-  "compatible-vendor-prefixes"  : false,  // Require compatible vendor prefixes
-  "gradients"                   : false,  // Require all gradient definitions
+  "box-model"                   : false,
 
-  // Possible Errors
-  "box-model"                   : false,  // Beware of box model size
+  "duplicate-background-images" : false,
+  "universal-selector"          : false,
 
-  // Performance
-  "duplicate-background-images" : false,  // Disallow duplicate background images
-  "universal-selector"          : false,  // Disallow universal selector
+  "floats"                      : false,
+  "font-sizes"                  : false,
 
-  // Maintainability & Duplication
-  "floats"                      : false,  // Disallow too many floats
-  "font-sizes"                  : false,  // Don't use too many font size declarations
+  "outline-none"                : false,
 
-  // Accessibility
-  "outline-none"                : false,  // Disallow outline:none
-
-  // OOCSS
-  "qualified-headings"          : false,  // Disallow qualified headings
-  "unique-headings"             : false   // Headings should only be defined once
+  "qualified-headings"          : false,
+  "unique-headings"             : false
 }

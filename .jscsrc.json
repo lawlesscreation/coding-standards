@@ -1,7 +1,4 @@
 {
-  // JSCS — JavaScript Code Style
-  // https://github.com/mdevils/node-jscs
-
   "requireCurlyBraces"             : ["if", "else", "for", "while", "do", "try", "catch"],
   "requireSpaceAfterKeywords"      : ["if", "else", "for", "while", "do", "switch", "return", "try", "catch"],
   "disallowLeftStickedOperators"   : ["?", "+", "-", "/", "*", "=", "==", "===", "!=", "!==", ">", ">=", "<", "<="],
