@@ -163,4 +163,4 @@ What break points you use depends on the design and content that needs to adapt.
 
 Always validate your CSS [W3C CSS validator](http://jigsaw.w3.org/css-validator/).
 
-Running your CSS through [CSS Lint](http://csslint.net/) is also wise.
+Running your CSS through [CSS Lint](http://csslint.net/) is also wise. My own [csslintrc](.csslintrc.json) file can be found in this repo for use during development.

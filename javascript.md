@@ -123,4 +123,4 @@ The script is guaranteed to be executed as soon as the download is complete. Kee
 
 ## Validation
 
-Always validate code [JS Hint](http://jshint.com/).
+Always validate code [JS Hint](http://jshint.com/). My own [jshintrc](.jshintrc.json) and [jscsrc](.jscsrc.json) file can be found in this repo for use during development.
