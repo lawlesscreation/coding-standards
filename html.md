@@ -13,9 +13,11 @@
 - Always close tags, including self-closing tags, e.g.: `<br />`, `<link />`;
 - Remove any unnecessary attributes e.g.: `<script src="" />` instead of `<script type="text/javascript" src="" />`;
 - styles at the top, scripts at the bottom;
+- HTML attributes should be in alphabetical order for consistency and readability;
+- A boolean attribute does not need to be declared, e.g.: `disabled` instead of `disabled="disabled"`;
 
 ```html
-<div class="selector">
+<div class="selector" role="banner">
   <br />
 </div><!-- .selector -->
 ```

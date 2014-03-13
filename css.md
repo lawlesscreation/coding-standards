@@ -17,18 +17,16 @@
 - Multiple CSS selectors should each appear on a new line;
 - Utilize CSS animations as best you can, they can save you a load of JavaScript code down the road;
 - Avoiding qualified name selectors e.g.: `div.post {}`;
-
+- Quote attribute values in selectors, e.g.: `input[type="text"]`;
 
 ```css
 .selector {font-size: 100%; }
-```
 
-```css
 .selector,
 .another-selector {
-  font-size: 100%;
-  color: #fff;
   background: rgba(0,0,0,.5);
+  color: #fff;
+  font-size: 100%;
 }
 ```
 
@@ -55,19 +53,24 @@ Whilst not as string as BEM's `__` convention, it should allow for a clean, logi
 
 - Use shorthand properties where suitable e.g.: `font:` or `background:`;
 - Omit leading 0's from values e.g.: padding: .25em;
-- Use hex color codes #000 unless using rgba;
+- Use hex color codes #000 unless using rgba and lowercase all hex values;
 - Use font weight numbers instead of words e.g.: `font-weight: 400;`;
 - Use percentages for font sizes instead of absolute units (EM, REM etc are also fine, just be consistent);
 - Provide a fallback for older browsers that do not support modern CSS properties or values such as background gradients, rgba etc;
 - Vendor prefixes should be avoided but if required, place them before the non-prefixed property;
+- Alphabtically order your properties or group related properties;
+- Don't include spaces after commas within `rgb()`, `rgba()` etc;
 
 ```css
 .selector {
   background: #000; /* fallback */
   background: rgba(0,0,0,.8);
-  -moz-border-radius: 5px;
-  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px; /* only if required */
+  -webkit-border-radius: 5px; /* only if required */
   border-radius: 5px;
+  position: abosolute;
+  left: 0;
+  top: 0;
 }
 ```
 
