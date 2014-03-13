@@ -11,7 +11,7 @@
 ## General coding style
 
 - Use `===` instead of `==`;
-- `'use strict'` when possible;
+- `'use strict'` always;
 - Use single quotes for strings e.g.: `document.getElementById('id')`;
 - Comma seperate multiple variables e.g.:
 
