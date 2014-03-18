@@ -13,10 +13,10 @@
 
 ```javascript
 $("#myLink")
-    .addClass("bold")
-    .on("click", myClickHandler)
-    .on("mouseover", myMouseOverHandler)
-    .show();
+  .addClass("bold")
+  .on("click", myClickHandler)
+  .on("mouseover", myMouseOverHandler)
+  .show();
 ```
 
 
@@ -51,13 +51,13 @@ var $productIds = $("#products").find("div.id");
 // BAD
 var $myList = $("#list");
 for(var i = 0; i < 10000; i++){
-    $myList.append("<li>"+i+"</li>");
+  $myList.append("<li>"+i+"</li>");
 }
 
 // GOOD
 var array = [];
 for(var i = 0; i < 10000; i++){
-    array[i] = "<li>"+i+"</li>";
+  array[i] = "<li>"+i+"</li>";
 }
 $myList.html(array.join(''));
 ```
@@ -71,7 +71,7 @@ $("#nosuchthing").slideUp();
 // GOOD
 var $mySelection = $("#nosuchthing");
 if ($mySelection.length) {
-    $mySelection.slideUp();
+  $mySelection.slideUp();
 }
 ```
 
