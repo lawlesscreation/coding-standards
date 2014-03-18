@@ -1,6 +1,8 @@
 # jQuery
 
 - [General coding style](#general-coding-style)
+- [Selectors](#selectors)
+- [DOM Manipulation](#dom-manipulation)
 - [Plug-ins](#plug-ins)
 - [Performance](#performance)
 - [CDN](#cdn)
