@@ -9,11 +9,72 @@
 ## General coding style
 
 - Use `.on()` fot attaching event handlers e.g.: `.on('click', function() {...});` instead of `.click(function() {...})`;
+- If a chain grows over 3 links, use appropriate line breaks and indentation to make the code readable;
 
-### Naming conventions
+```javascript
+$("#myLink")
+    .addClass("bold")
+    .on("click", myClickHandler)
+    .on("mouseover", myMouseOverHandler)
+    .show();
+```
+
+
+### Functions
 
 - Prefix your **global** function with 'jquery' so its easily recognised as a jQuery function e.g.: `jqueryFunctionName`.
 Functions *inside* an already names jQuery function or plugin local scope don't necessarily need this;
+
+### Variables
+
+- All variables that are used to store/cache jQuery objects should have a name prefixed with a `$` e.g.: `var $myDiv = $("#myDiv");`;
+
+
+## Selectors
+
+- Use find for Id->Child nested selectors. The `.find()` approach is faster because the first selection is handled without going through the Sizzle selector engine;
+
+```javascript
+// BAD, a nested query for Sizzle selector engine
+var $productIds = $("#products div.id");
+
+// GOOD, #products is already selected by document.getElementById() so only div.id needs to go through Sizzle selector engine
+var $productIds = $("#products").find("div.id");
+```
+
+
+## DOM Manipulation
+
+- Use string concatenation or `array.join()` over `.append()`;
+
+```javascript
+// BAD
+var $myList = $("#list");
+for(var i = 0; i < 10000; i++){
+    $myList.append("<li>"+i+"</li>");
+}
+
+// GOOD
+var array = [];
+for(var i = 0; i < 10000; i++){
+    array[i] = "<li>"+i+"</li>";
+}
+$myList.html(array.join(''));
+```
+
+- Don’t Act on Absent Elements;
+
+```javascript
+// BAD: This runs three functions before it realizes there's nothing in the selection
+$("#nosuchthing").slideUp();
+ 
+// GOOD
+var $mySelection = $("#nosuchthing");
+if ($mySelection.length) {
+    $mySelection.slideUp();
+}
+```
+
 
 ## Plug-ins
 
@@ -73,4 +134,4 @@ I personally think its still a good idea to grab jQuery and jQuery UI from a CDN
 
 ## Validation
 
-Always validate code [JS Hint](http://jshint.com).
+Always validate code [JS Hint](http://jshint.com/). My own [jshintrc](.jshintrc) and [jscsrc](.jscsrc) file can be found in this repo for use during development.

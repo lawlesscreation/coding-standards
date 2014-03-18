@@ -25,6 +25,7 @@ var string = 'string',
 
 - All functions should be named using `camelCase`;
 - All variables should be named using an `under_score`, if more than 1 word;
+- Global variables should be in `UPPERCASE`;
 
 ### CSS selector naming
 
