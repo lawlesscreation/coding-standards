@@ -39,3 +39,8 @@ If they use spaces around all their arithmetic operators, you should too.
 If their comments have little boxes of hash marks around them, make your comments have little boxes of hash marks around them too.
 
 If code you add to a file looks drastically different from the existing code around it, it throws readers out of their rhythm when they go to read it. Avoid this.
+
+
+## Release history
+
+ - 0.1.0 Tagged initial release.
