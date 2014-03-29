@@ -1,15 +1,18 @@
 # Coding standards
 
-#### My very own coding standards. Mostly for my own reference and validation.
+> Coding standards for HTML, (S)CSS and JavaScript development.
 
-I wanted to compile my preferred guidelines and coding standards from sources such as Google and GitHub into a single place in the hope of creating a reference for all the code I write.
-So why not compile it on GitHub! I can then easily update it as it evolves.
+These guidelines and coding standards are compiled from various sources such as Google and GitHub in the hope of creating a reference for web development.
+
+Compiling these on GitHub means I can easily update them, as they evolve, as well as importing them for use on other projects.
+
 
 ## General principles
 
 - Keep your code clean. Seperate CSS into a .css file, JavaScript into a .js file etc;
 - Use soft-tabs with a two space indent;
 - Avoid compressing your code, that's the app/servers job. If you do, be sure to provide an uncompressed and commented version;
+
 
 ## Table of contents
 
@@ -18,6 +21,7 @@ So why not compile it on GitHub! I can then easily update it as it evolves.
   - [SCSS](scss.md)
 - [JavaScript](javascript.md)
   - [jQuery](javascript-jquery.md)
+
 
 ## Sources include...
 
