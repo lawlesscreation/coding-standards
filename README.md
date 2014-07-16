@@ -10,7 +10,7 @@ Compiling these on GitHub means I can easily update them, as they evolve, as wel
 ## General principles
 
 - Keep your code clean. Seperate CSS into a .css file, JavaScript into a .js file etc;
-- Use soft-tabs with a two space indent;
+- Use soft-tabs with a 4 space indent;
 - Avoid compressing your code, that's the app/servers job. If you do, be sure to provide an uncompressed and commented version;
 
 
