@@ -24,9 +24,9 @@
 
 .selector,
 .another-selector {
-  background: rgba(0,0,0,.5);
-  color: #fff;
-  font-size: 100%;
+    background: rgba(0,0,0,.5);
+    color: #fff;
+    font-size: 100%;
 }
 ```
 
@@ -63,14 +63,14 @@ Whilst not as string as BEM's `__` convention, it should allow for a clean, logi
 
 ```css
 .selector {
-  background: #000; /* fallback */
-  background: rgba(0,0,0,.8);
-  -moz-border-radius: 5px; /* only if required */
-  -webkit-border-radius: 5px; /* only if required */
-  border-radius: 5px;
-  position: abosolute;
-  left: 0;
-  top: 0;
+    background: #000; /* fallback */
+    background: rgba(0,0,0,.8);
+    -moz-border-radius: 5px; /* only if required */
+    -webkit-border-radius: 5px; /* only if required */
+    border-radius: 5px;
+    position: abosolute;
+    left: 0;
+    top: 0;
 }
 ```
 
@@ -85,8 +85,8 @@ For example:
 
 ```css
 .menu_item {
-  background-position: 0 50%;
-  background-repeat: no-repeat;
+    background-position: 0 50%;
+    background-repeat: no-repeat;
 }
 
 .menu_item--current {background-image: url(active.gif); }
@@ -133,9 +133,9 @@ Comments can get messy, but I find this pattern works well for me - each to thei
 ------------------------------------------------------------------------------------*/
 @media only screen {
 
-  /* A COLLECTION ( e.g.: COMPONENTS )
-  ----------------------------------------------------------------------------------*/
-  .selector {}
+    /* A COLLECTION ( e.g.: COMPONENTS )
+    ----------------------------------------------------------------------------------*/
+    .selector {}
 
 } /* end media */
 ```
