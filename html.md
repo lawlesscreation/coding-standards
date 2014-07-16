@@ -18,7 +18,7 @@
 
 ```html
 <div class="selector" role="banner">
-  <br />
+    <br />
 </div><!-- .selector -->
 ```
 
