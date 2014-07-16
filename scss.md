@@ -17,16 +17,16 @@ Many of the CSS coding standards also apply to SCSS, obviously, but here are a f
 
 ```scss
 header {
-  padding: 10px 20px;
+    padding: 10px 20px;
 
-  nav {
-    float: left;
+    nav {
+        float: left;
   
-    li {display: block; }
+        li {display: block; }
 
-    a {color: #fff; } //Note: this isn't nested in the <li> to help reduce code bloat
+        a {color: #fff; } //Note: this isn't nested in the <li> to help reduce code bloat
 
-  }
+    }
 
 }
 ```
@@ -41,10 +41,10 @@ header {
 
 ```scss
 @mixin related_links-mobile {
-  ...
+    ...
 }
 
 @mixin related_links-mobile_large {
-  ...
+    ...
 }
 ```
