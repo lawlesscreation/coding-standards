@@ -15,10 +15,10 @@
 
 ```javascript
 $("#myLink")
-  .addClass("bold")
-  .on("click", myClickHandler)
-  .on("mouseover", myMouseOverHandler)
-  .show();
+    .addClass("bold")
+    .on("click", myClickHandler)
+    .on("mouseover", myMouseOverHandler)
+    .show();
 ```
 
 
@@ -53,13 +53,13 @@ var $productIds = $("#products").find("div.id");
 // BAD
 var $myList = $("#list");
 for(var i = 0; i < 10000; i++){
-  $myList.append("<li>"+i+"</li>");
+    $myList.append("<li>"+i+"</li>");
 }
 
 // GOOD
 var array = [];
 for(var i = 0; i < 10000; i++){
-  array[i] = "<li>"+i+"</li>";
+    array[i] = "<li>"+i+"</li>";
 }
 $myList.html(array.join(''));
 ```
@@ -73,7 +73,7 @@ $("#nosuchthing").slideUp();
 // GOOD
 var $mySelection = $("#nosuchthing");
 if ($mySelection.length) {
-  $mySelection.slideUp();
+    $mySelection.slideUp();
 }
 ```
 
@@ -93,7 +93,7 @@ Sometimes its good to check if a function exist before trying to use it. Particu
 
 ```javascript
 if ($.isFunction($.fn.FUNCTION_NAME)) {
-  // Code for calling the function etc goes here
+    // Code for calling the function etc goes here
 }
 ```
 
@@ -107,7 +107,7 @@ Why use the attr() method to search for an ID?
 
 ```javascript
 $('a').on('click', function() {
-  console.log( $(this).attr('id') );
+    console.log( $(this).attr('id') );
 });
 ```
 
@@ -115,7 +115,7 @@ If you can can get this attribute natively and faster through this:
 
 ```javascript
 $('a').on('click', function() {
-  console.log( this.id );
+    console.log( this.id );
 });
 ```
 
