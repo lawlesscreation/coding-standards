@@ -8,6 +8,7 @@
 - [CDN](#cdn)
 - [Validation](#validation)
 
+
 ## General coding style
 
 - Use `.on()` fot attaching event handlers e.g.: `.on('click', function() {...});` instead of `.click(function() {...})`;
@@ -21,15 +22,10 @@ $("#myLink")
     .show();
 ```
 
-
 ### Functions
 
 - Prefix your **global** function with 'jquery' so its easily recognised as a jQuery function e.g.: `jqueryFunctionName`.
 Functions *inside* an already names jQuery function or plugin local scope don't necessarily need this;
-
-### Variables
-
-- All variables that are used to store/cache jQuery objects should have a name prefixed with a `$` e.g.: `var $myDiv = $("#myDiv");`;
 
 
 ## Selectors
@@ -38,10 +34,10 @@ Functions *inside* an already names jQuery function or plugin local scope don't 
 
 ```javascript
 // BAD, a nested query for Sizzle selector engine
-var $productIds = $("#products div.id");
+var productIds = $("#products div.id");
 
 // GOOD, #products is already selected by document.getElementById() so only div.id needs to go through Sizzle selector engine
-var $productIds = $("#products").find("div.id");
+var productIds = $("#products").find("div.id");
 ```
 
 
@@ -51,9 +47,9 @@ var $productIds = $("#products").find("div.id");
 
 ```javascript
 // BAD
-var $myList = $("#list");
+var myList = $("#list");
 for(var i = 0; i < 10000; i++){
-    $myList.append("<li>"+i+"</li>");
+    myList.append("<li>"+i+"</li>");
 }
 
 // GOOD
@@ -61,7 +57,7 @@ var array = [];
 for(var i = 0; i < 10000; i++){
     array[i] = "<li>"+i+"</li>";
 }
-$myList.html(array.join(''));
+myList.html(array.join(''));
 ```
 
 - Don’t Act on Absent Elements;
@@ -71,9 +67,9 @@ $myList.html(array.join(''));
 $("#nosuchthing").slideUp();
  
 // GOOD
-var $mySelection = $("#nosuchthing");
-if ($mySelection.length) {
-    $mySelection.slideUp();
+var mySelection = $("#nosuchthing");
+if (mySelection.length) {
+    mySelection.slideUp();
 }
 ```
 
@@ -96,6 +92,7 @@ if ($.isFunction($.fn.FUNCTION_NAME)) {
     // Code for calling the function etc goes here
 }
 ```
+
 
 ## Performance
 
@@ -123,6 +120,7 @@ $('a').on('click', function() {
 
 This is because by putting your scripts at the end of the DOM (before the `</body>` tag) you know the DOM is going to be compiled by the time your scripts run.
 
+
 ## CDN
 
 I personally think its still a good idea to grab jQuery and jQuery UI from a CDN:
@@ -133,6 +131,7 @@ I personally think its still a good idea to grab jQuery and jQuery UI from a CDN
 <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.0/jquery-ui.min.js"></script>
 <script>window.jQuery.ui || document.write("<script src='plugins/jqueryui/1.10.0/jquery-ui.min.js'>\x3C/script>")</script>
 ```
+
 
 ## Validation
 
