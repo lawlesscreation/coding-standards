@@ -8,6 +8,7 @@
 - [Performance](#performance)
 - [Validation](#validation)
 
+
 ## General coding style
 
 - Use `===` instead of `==`;
@@ -21,15 +22,16 @@ var string = 'string',
     third_string = 'third string';
 ```
 
+
 ## Naming conventions
 
-- All functions should be named using `camelCase`;
-- All variables should be named using an `under_score`, if more than 1 word;
+- All functions and variables should be named using `camelCase`;
 - Global variables should be in `UPPERCASE`;
 
 ### CSS selector naming
 
 - Try to prefix all JavaScript created ID's or classes with `js-`. The idea is that you should be able to tell which classes have been inserted with JavaScript, e.g.: `js-tabs`, `js-is-hidden`;
+
 
 ## Functions
 
@@ -56,6 +58,7 @@ It's quite simple to make a function run automatically when a page loads, or whe
 })();
 ```
 
+
 ## Selectors
 
 - Cache your selectors <strong>once</strong> at the start of the file (if global) or function;
@@ -71,6 +74,7 @@ function functionName() {
   ...
 }
 ```
+
 
 ## Commenting
 
@@ -111,6 +115,7 @@ Inline comments should use `//` this allows them to be easily commented out for 
 var string = 'string'; // a string
 ```
 
+
 ## Performance
 
 ### Use async, when appropriate
@@ -121,6 +126,7 @@ The script is guaranteed to be executed as soon as the download is complete. Kee
 ```html
 <script async src="example.js"></script>
 ```
+
 
 ## Validation
 
