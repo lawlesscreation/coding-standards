@@ -39,7 +39,7 @@ This is the syntax for a basic JavaScript function and how to call it, nothing e
 
 ```javascript
 function functionName() {
-  // Code to be executed ONLY when the function is called
+    // Code to be executed ONLY when the function is called
 }
 
 // Calling the function
@@ -52,7 +52,7 @@ It's quite simple to make a function run automatically when a page loads, or whe
 
 ```javascript
 (function functionName() {
-  // Code to be self-executed
+    // Code to be self-executed
 })();
 ```
 
@@ -63,11 +63,11 @@ It's quite simple to make a function run automatically when a page loads, or whe
 
 ```javascript
 function functionName() {
-  var foo = document.getElementById('foo');
-  //BAD
-  var bar = document.getElementsByClassName('bar');
-  // GOOD
-  var bar = foo.getElementsByClassName('bar');
+    var foo = document.getElementById('foo');
+    //BAD
+    var bar = document.getElementsByClassName('bar');
+    // GOOD
+    var bar = foo.getElementsByClassName('bar');
   ...
 }
 ```
@@ -101,7 +101,7 @@ Functions should have a comment block `/* */` at the start that explains what th
  * @return boolean|string: - true or whatever is returned
  */
 function functionName() {
-  return true;
+    return true;
 }
 ```
 
