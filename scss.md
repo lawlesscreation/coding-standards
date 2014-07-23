@@ -67,9 +67,7 @@ Parent selector suffixes are extra helpful when you're using BEM syntax.
     &_title {
         background: #000;
 
-        &--highlighted {
-            background: #f00;
-        }
+        &--highlighted {background: #f00; }
     }
 }
 ```
