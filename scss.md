@@ -23,8 +23,11 @@ header {
 
     nav {
         float: left;
+
         li {display: block; }
+
         a {color: #fff; } //Note: this isn't nested in the <li> to help reduce code bloat
+
     }
 
 }
@@ -40,7 +43,7 @@ header {
 
 ## Mixins
 
-- Mixins should use underscores for multiple words and/or hyphens for media queries;
+Mixins should use underscores for multiple words and/or hyphens for media queries;
 
 ```scss
 @mixin related_links-mobile {
