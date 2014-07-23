@@ -3,6 +3,7 @@
 - [General coding style](#general-coding-style)
 - [Variables](#variables)
 - [Mixins](#mixins)
+- - [Mixins](#mixins)
 
 ## General coding style
 
